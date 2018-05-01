@@ -1,0 +1,11 @@
+ conda info --envs
+ source activate cocacola 
+ clear
+ conda install -c conda-forge dlib
+ conda install -c conda-forge opencv
+ conda install -c conda-forge pillow
+ pip freeze
+ pip freeze > Requirements-anaconda.txt
+ git add .
+ git commit -m "Inicio"
+ history > cmd-install.txt
